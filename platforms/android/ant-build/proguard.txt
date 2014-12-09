@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class ca.edumedia.m.masl0016.shopping.CordovaApp { <init>(...); }
+
