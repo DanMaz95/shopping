@@ -7,19 +7,7 @@ angular.module('starter', ['ionic'])
 
 
 	$scope.saved = localStorage.getItem('grocery-masl0016');
-	$scope.todos = (localStorage.getItem('grocery-masl0016') !== null) ? JSON.parse($scope.saved) : [{
-		text: 'DrumSticks',
-		done: false
-    }, {
-		text: 'CornBread',
-		done: false
-    }, {
-		text: 'Peach Schnapps',
-		done: false
-    }, {
-		text: 'Carrots',
-		done: false
-    }];
+	$scope.todos = (localStorage.getItem('grocery-masl0016') !== null) ? JSON.parse($scope.saved) : [];
 	localStorage.setItem('grocery-masl0016', JSON.stringify($scope.todos));
 
 	$scope.addTodo = function () {
@@ -50,8 +38,8 @@ angular.module('starter', ['ionic'])
 		//alert($scope.todos.length);
 		if (latch) {
 			var confirmPopup = $ionicPopup.confirm({
-				title: 'Delete',
-				template: 'Are you sure?'
+				title: 'Remove',
+				template: 'Did you really get this?'
 			});
 			confirmPopup.then(function (res) {
 				if (res) {
@@ -70,8 +58,8 @@ angular.module('starter', ['ionic'])
 
 
 			var alertPopup = $ionicPopup.alert({
-				title: 'Nothing Selected!',
-				template: 'Please select an item.'
+				title: 'Nothings selected',
+				template: 'Pick something to remove'
 			});
 			alertPopup.then(function (res) {});
 

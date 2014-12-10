@@ -1,4 +1,4 @@
-c:\wamp\www\mad9014\splash\platforms\android\ant-build\CordovaApp-debug-unaligned.apk : \
-c:\wamp\www\mad9014\splash\platforms\android\ant-build\CordovaApp.ap_ \
-c:\wamp\www\mad9014\splash\platforms\android\ant-build\classes.dex \
-C:\wamp\www\mad9014\splash\platforms\android\CordovaLib\ant-build\classes.jar \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\ant-build\CordovaApp-debug-unaligned.apk : \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\ant-build\CordovaApp.ap_ \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\ant-build\classes.dex \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\CordovaLib\ant-build\classes.jar \

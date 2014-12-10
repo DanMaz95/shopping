@@ -1,2 +1,2 @@
-c:\wamp\www\mad9014\splash\platforms\android\ant-build\AndroidManifest.xml : \
-c:\wamp\www\mad9014\splash\platforms\android\AndroidManifest.xml \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\ant-build\AndroidManifest.xml : \
+C:\Users\Dan\Desktop\Cordova\shopping\platforms\android\AndroidManifest.xml \

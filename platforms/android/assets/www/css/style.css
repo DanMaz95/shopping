@@ -4,3 +4,8 @@
 .popup-body {
 	text-align: center;
 }
+.bar-assertive{
+    background-color: #090977;
+    border-bottom-color: #090977;
+    border-bottom: 2px;
+}
